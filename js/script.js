@@ -228,9 +228,8 @@ const addTabletToBar = ()=>{
     const removeButtons = document.querySelectorAll('.remove');
     removeButtons.forEach(button => {
         button.addEventListener('click',(e)=> {
-            let tablet = e.target.parentNode.parentNode
-            let text = e.target.parentNode.parentNode.textContent;
-            let finalText = text.trim();
+            let tablet = e.target.parentNode;
+            let finalText = tablet.textContent.trim();
             tablet.remove()
             barArr.forEach((element,index) => {
                 if(element == finalText){
