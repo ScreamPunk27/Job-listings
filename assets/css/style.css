@@ -62,20 +62,30 @@ header{
 }
 
 .tablet{
+    height: 30px;
     display: flex;
     align-items: center;
     margin: 0 .5rem;
-    padding: .5rem;
     font-weight: 700;
     color: var(--desaturatedDarkCyan);
-    background-color: var(--lightGrayishCyanFilterTablets);
     border-radius: 3px;
 }
 
+.tablet__left{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 .2rem;
+    background-color: var(--lightGrayishCyanFilterTablets);
+}
+
 .remove{
-    margin-left: .2rem;
-    padding: .2rem;
+    width: 20px;
+    height: 100%;
     background-color: var(--desaturatedDarkCyan);
+    background-image: url('/images/icon-remove.svg');
+    background-repeat: no-repeat;
+    background-position: center;
     transition: background-color .2s ease-in;
     cursor: pointer;
 }
