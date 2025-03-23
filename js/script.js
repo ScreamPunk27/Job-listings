@@ -218,8 +218,8 @@ const addTabletToBar = ()=>{
         bar.insertAdjacentHTML('beforeend',`
             <div class='tablet'>
                 <div class='tablet__left'>${tablet}</div>
-                <div class='tablet__right remove'>
-                    <img src='./images/icon-remove.svg' />
+                <div class='remove'>
+                    
                 </div>
             </div>
         `)
