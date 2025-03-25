@@ -80,9 +80,9 @@ header{
 }
 
 .remove{
-    width: 25px;
+    width: 30px;
     height: 100%;
-    border-radius: 0 5px 5px 0;
+    border-radius: 0 3px 3px 0;
     background-color: var(--desaturatedDarkCyan);
     background-image: url('images/icon-remove.svg');
     background-repeat: no-repeat;
